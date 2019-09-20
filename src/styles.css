@@ -1,1 +1,41 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    width: 100%;
+}
+
+#page-name{
+    font-family:"Oswald";
+    font-weight: "700";
+    font-size: 1.3rem;
+    color: rgb(0,238,59);
+    text-align: right;
+    padding:10px;
+    padding-right: 5%;
+}
+.navbar{
+    font-family: "Rubik" ;
+    font-weight: 700;
+    padding: 1rem;
+}#front-page{
+    text-align: center;
+}
+#inner-front{
+    background-image:url("assets/Josco_perspective_Object_Installation_Wood3.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+#theNav{
+    background-color:white;
+}
+a{
+    color:rgb(0, 238, 59);
+}
+#hamburgerMenuImg{
+    max-height: 50px;
+    align-self: center;
+}
+#menu-button{
+    width: 50px;
+    margin: 20px;   
+}
